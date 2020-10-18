@@ -1,7 +1,7 @@
 #注意：如果在记事本上编写，下面的缩进不要使用Tab来缩进，不然报错
 spring:
   profiles:
-    active: prod # 激活开发环境配置
+    active: dev # 激活开发环境配置
 ---
 server:
   port: 8001
@@ -12,7 +12,7 @@ mybatis:
 spring:
   profiles: dev # 开发环境
   application:
-    name: microservice-product-config			# ******服务名*******
+    name: microservice-product-config-bus			# ******服务名*******
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
