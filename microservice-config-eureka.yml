@@ -22,7 +22,7 @@ eureka:
     enable-self-preservation: false # 禁用自我保护机制*****************
 ---
 server:
-  port: 6001 #端口号
+  port: 7001 #端口号
 spring:
   profiles: prod # 生产环境
   application:
