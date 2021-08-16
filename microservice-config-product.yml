@@ -18,7 +18,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://192.168.153.130:3306/springcloud_db01?serverTimezone=GMT%2B8 #数据库连接地址，*****注意库名 db01***************
     username: root
-    password: '{cipher}96aeceaf981c2445d22cf43064e00d9b1d625003d75fa2fb89a961179b6f666c'
+    password: '{cipher}AQBxUQ3ZuSiSu0PyWp18h8u/BfuZ+/S2oMPM5eLl1TSusKQTYkd4KCzQ2z4PXFQqnZL7vBTiRDXfy687rrW6M0LDQhKpByuImHpgH9j3dOl6nsJX7PwxJsVwuvSsmvM2uN00r0l4pthohurGlrGftTlZ3FfEgJqtgdYd8ZoGK21LZFfWQwZcEEkemBi6W7pM1Rv1Y2csxaA27pOqA4JMC2aLOJroOO3UVPnrHPVXwJZRiD25Se8RzbR1IARioRwoDTaOwYxoIUlsYpew8iYCim7MXKvAt4VKh3CgyFBFBaNc0eSzpZ2j8NtzfZTtx0ulgcSQ7Yukuzmk0e0cUsWRMmeNdhDLk35NNds1eUXksxgyUyJ8raU6QcWc3+9TnCSYzak='
     dbcp2:
       min-idle: 5
       initial-size: 5
@@ -54,7 +54,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://192.168.153.130:3306/springcloud_db02?serverTimezone=GMT%2B8 #数据库连接地址，*****注意库名 db02***************
     username: root
-    password: '{cipher}96aeceaf981c2445d22cf43064e00d9b1d625003d75fa2fb89a961179b6f666c'
+    password: '{cipher}AQBxUQ3ZuSiSu0PyWp18h8u/BfuZ+/S2oMPM5eLl1TSusKQTYkd4KCzQ2z4PXFQqnZL7vBTiRDXfy687rrW6M0LDQhKpByuImHpgH9j3dOl6nsJX7PwxJsVwuvSsmvM2uN00r0l4pthohurGlrGftTlZ3FfEgJqtgdYd8ZoGK21LZFfWQwZcEEkemBi6W7pM1Rv1Y2csxaA27pOqA4JMC2aLOJroOO3UVPnrHPVXwJZRiD25Se8RzbR1IARioRwoDTaOwYxoIUlsYpew8iYCim7MXKvAt4VKh3CgyFBFBaNc0eSzpZ2j8NtzfZTtx0ulgcSQ7Yukuzmk0e0cUsWRMmeNdhDLk35NNds1eUXksxgyUyJ8raU6QcWc3+9TnCSYzak='
     dbcp2:
       min-idle: 5
       initial-size: 5
